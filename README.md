@@ -1,5 +1,5 @@
 # CleanGuttersIA
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 CleanGuttersIA is a modern, responsive website designed to showcase professional gutter cleaning services with a user-friendly interface. This project demonstrates best practices in HTML, CSS, and JavaScript to create a clean, scalable, and visually appealing site ideal for local service businesses.
 
 ## Table of Contents
