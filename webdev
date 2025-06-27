@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clean Gutters Iowa - Gutter Cleaning Services in Des Moines and Surrounding Areas">
+  <meta name="author" content="Clean Gutters IA Team">
+  <title>Clean Gutters Iowa | Professional Gutter Cleaning</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <style>
+    :root {
+      --primary-color: #0066cc;
+      --accent-color: #ffffff;
+      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: var(--font-family);
+      background-color: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--primary-color);
+      color: var(--accent-color);
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.75rem;
+      text-align: center;
+      color: var(--primary-color);
+    }
+    .pricing {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .card h3 {
+      margin: 0.5rem;
+      color: #222;
+      font-size: 1.25rem;
+    }
+    .card p {
+      margin: 0 0 1rem;
+      font-size: 1rem;
+      color: #555;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 3rem;
+      background-color: #e9f1fb;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    .contact a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--primary-color);
+      color: var(--accent-color);
+      margin-top: 3rem;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+      .card {
+        background-color: #1e1e1e;
+        border-color: #333;
+      }
+      .contact {
+        background-color: #1f2a38;
+      }
+      footer {
+        background-color: #0a3b6b;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clean Gutters Iowa</h1>
+    <p>No hassle gutter cleaning. Transparent pricing. Serving Des Moines Metro & 100-mile radius (fuel surcharge applies).</p>
+  </header>  <main class="container">
+    <section aria-labelledby="pricing-header">
+      <h2 id="pricing-header">Our Pricing Plans</h2>
+      <div class="pricing">
+        <div class="card">
+          <img src="house1.jpg" alt="Split Level Home - $149">
+          <h3>Split Level Home</h3>
+          <p><strong>$149</strong><br> Add Detached Garage for $40</p>
+        </div>
+        <div class="card">
+          <img src="house2.jpg" alt="Ranch Home 4 Sides - $99">
+          <h3>1 Story Ranch - 4 Sides</h3>
+          <p><strong>$99</strong><br> Add Detached Garage for $40</p>
+        </div>
+        <div class="card">
+          <img src="house3.jpg" alt="Ranch Home 2 Sides - $49">
+          <h3>1 Story Ranch - 2 Sides</h3>
+          <p><strong>$49</strong><br> Add Detached Garage for $40</p>
+        </div>
+      </div>
+    </section><section class="contact" aria-labelledby="contact-header">
+  <h2 id="contact-header">Get in Touch</h2>
+  <p>Email us at <a href="mailto:Help@CleanGuttersIA.com">Help@CleanGuttersIA.com</a></p>
+  <p>Text property address to <strong>515.519.0561</strong> for a free quote</p>
+  <p>Or call <strong>515.519.0561</strong> directly to schedule</p>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 Clean Gutters Iowa. Designed with modern standards. Built by Sean Jordan Smith.</p>
+  </footer>
+</body>
+</html>
