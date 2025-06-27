@@ -3,110 +3,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Clean Gutters Iowa - Gutter Cleaning Services in Des Moines and Surrounding Areas">
-  <meta name="author" content="Clean Gutters IA Team">
-  <title>Clean Gutters Iowa | Professional Gutter Cleaning</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Professional gutter cleaning services in Iowa. No hassle, no hidden fees. Serving Des Moines Metro & beyond.">
+  <meta name="author" content="Sean J. Smith - Clean Gutters Iowa">
+  <meta name="theme-color" content="#0066cc">
+  <title>Clean Gutters Iowa | No Hassle Gutter Cleaning</title>
+
+  <!-- Normalize CSS for consistency -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha384-oeNE85gINR9sbJpxErBfG3bB+eFM2eT0uh8H4U0R1v8ZL5qzVYwv9CjPAE1Fkp2H" crossorigin="anonymous">
+
   <style>
     :root {
-      --primary-color: #0066cc;
-      --accent-color: #ffffff;
-      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      --primary: #0066cc;
+      --light: #ffffff;
+      --dark: #121212;
+      --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
     *, *::before, *::after {
       box-sizing: border-box;
     }
+
     body {
       margin: 0;
-      font-family: var(--font-family);
+      font-family: var(--font);
       background-color: #f4f7fa;
       color: #333;
       line-height: 1.6;
     }
+
     header {
-      background-color: var(--primary-color);
-      color: var(--accent-color);
+      background: var(--primary);
+      color: var(--light);
       text-align: center;
       padding: 2rem 1rem;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
+
     header h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 2.25rem;
     }
+
     header p {
-      margin-top: 0.5rem;
       font-size: 1.1rem;
+      margin-top: 0.5rem;
     }
+
     .container {
       max-width: 1200px;
       margin: auto;
       padding: 2rem 1rem;
     }
+
     h2 {
-      margin-top: 2rem;
       font-size: 1.75rem;
       text-align: center;
-      color: var(--primary-color);
+      color: var(--primary);
+      margin-bottom: 1.5rem;
     }
+
     .pricing {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
-      margin-top: 2rem;
     }
+
     .card {
       background: #fff;
-      border: 1px solid #ddd;
       border-radius: 8px;
       overflow: hidden;
-      transition: transform 0.3s ease;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       text-align: center;
+      transition: transform 0.3s ease;
     }
+
     .card:hover {
       transform: translateY(-5px);
     }
+
     .card img {
       width: 100%;
       height: auto;
       display: block;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #ddd;
+      border-radius: 8px 8px 0 0;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      loading: lazy;
     }
+
     .card h3 {
-      margin: 0.5rem;
-      color: #222;
+      margin: 1rem 0 0.5rem;
       font-size: 1.25rem;
+      color: #222;
     }
+
     .card p {
-      margin: 0 0 1rem;
       font-size: 1rem;
       color: #555;
+      margin-bottom: 1.25rem;
     }
+
     .contact {
-      text-align: center;
-      margin-top: 3rem;
       background-color: #e9f1fb;
       padding: 2rem;
-      border-radius: 10px;
-    }
-    .contact a {
-      color: var(--primary-color);
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
       text-align: center;
-      padding: 1rem;
-      background-color: var(--primary-color);
-      color: var(--accent-color);
+      border-radius: 10px;
       margin-top: 3rem;
     }
+
+    .contact a {
+      color: var(--primary);
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: var(--primary);
+      color: var(--light);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      font-size: 0.95rem;
+    }
+
     @media (prefers-color-scheme: dark) {
       body {
-        background-color: #121212;
+        background-color: var(--dark);
         color: #e0e0e0;
       }
       .card {
@@ -120,49 +144,58 @@
         background-color: #0a3b6b;
       }
     }
+
+    @media screen and (min-width: 1600px) {
+      .card img {
+        aspect-ratio: 21 / 9;
+      }
+    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Clean Gutters Iowa</h1>
-    <p>No hassle gutter cleaning. No hidden fees. Serving the Des Moines Metro area.</p> 
-    <p>*Will serve within 100 miles of Des Moines Metro for additional fuel surcharge.</p>
+    <p>No hassle gutter cleaning. No hidden fees. Serving the Des Moines Metro area.</p>
+    <p><em>*Up to 100 miles outside metro area with fuel surcharge.</em></p>
   </header>
 
-  <main class="container">
+  <main class="container" role="main">
     <section aria-labelledby="pricing-header">
       <h2 id="pricing-header">Our Pricing Plans</h2>
       <div class="pricing">
         <div class="card">
-          <img src="house1.jpg" alt="Split Level Home - $149">
+          <img src="house1.jpg" alt="Split Level Home - Gutter cleaning for $149">
           <h3>Split Level Home</h3>
-          <p><strong>$149</strong><br> Add Detached Garage for $40</p>
+          <p><strong>$149</strong><br>Add Detached Garage: $40</p>
         </div>
         <div class="card">
-          <img src="house2.jpg" alt="Ranch Home 4 Sides - $99">
+          <img src="house2.jpg" alt="1 Story Ranch with Gutters on 4 Sides - $99">
           <h3>1 Story Ranch - 4 Sides</h3>
-          <p><strong>$99</strong><br> Add Detached Garage for $40</p>
+          <p><strong>$99</strong><br>Add Detached Garage: $40</p>
         </div>
         <div class="card">
-          <img src="house3.jpg" alt="Ranch Home 2 Sides - $49">
+          <img src="house3.jpg" alt="1 Story Ranch with Gutters on 2 Sides - $49">
           <h3>1 Story Ranch - 2 Sides</h3>
-          <p><strong>$49</strong><br> Add Detached Garage for $40</p>
+          <p><strong>$49</strong><br>Add Detached Garage: $40</p>
         </div>
       </div>
     </section>
 
     <section class="contact" aria-labelledby="contact-header">
       <h2 id="contact-header">Get in Touch</h2>
-      <p>Email us at <a href="mailto:Help@CleanGuttersIA.com">Help@CleanGuttersIA.com</a></p>
-      <p>or text the address of the property you would like cleaned to <strong>515.519.0561</strong> to receive a free quote.</p>
+      <p>Please Email: <a href="mailto:Help@CleanGuttersIA.com">Help@CleanGuttersIA.com</a></p>
+      <p>or text the address of the property you would like cleaned to: <strong>515.519.0561</strong></p> </p>to receive a free quote.</p>
       <p>Please call <strong>515.519.0561</strong> to schedule a gutter cleaning or receive a quote by phone.</p>
-      <p>Phone: 515.519.0561<p>
-      <p>Email: Help@CleanGuttersIA.com<p>
+      <p>Phone: 515.519.0561</p>
+      <p>Email: Help@CleanGuttersIA.com</p>
+
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Clean Gutters Iowa.Built by Sean J. Smith @sjsmithtech@gmail.com.</p>
+  <footer role="contentinfo">
+    <p>&copy; 2025 Clean Gutters Iowa. Built with 💡 by Sean J. Smith — <a href="mailto:sjsmithtech@gmail.com" style="color:#fff;text-decoration:underline;">sjsmithtech@gmail.com</a>.</p>
   </footer>
+
 </body>
 </html>
